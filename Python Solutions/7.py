@@ -5,7 +5,7 @@ What is the 10 001st prime number?
 
 def isPrime(n):
     if n == 2:
-        return False
+        return True
 
     for i in range(3, round(n**0.5) + 1, 2):
         if n % i == 0:

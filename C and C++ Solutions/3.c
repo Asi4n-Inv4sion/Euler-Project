@@ -7,7 +7,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 int isPrime(long long int n)
 {
-    for (long long int i = 2; i < (long long int)pow(n, 0.5); i++)
+    for (long long int i = 2; i < (long long int)pow(n, 0.5) + 2; i++)
     {
         if (n % i == 0)
         {
