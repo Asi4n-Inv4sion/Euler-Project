@@ -91,3 +91,4 @@ while n <= 7654321:
 
 
 print(largest)
+# runtime: ~9s
